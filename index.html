@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Layout</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/checkbox.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="root">
+    <div class="pre_container body_container">
+      <div class="avatar"></div>
+      <h1>Tech-it</h1>
+      <div class="avatar_text">Go all digital...</div>
+    </div>
+    <div class="form_container body_container">
+      <div class="header">
+        <div class="form_content">
+          <h2>Sign up for Tech-it</h2>
+          <h6>Find all you need to make your daily experience automated...</h6>
+        </div>
+      </div>
+      <div class="first_tab tab">
+        <div class="form_content">
+          <h4>First, Name your Organization</h4>
+          <div class="organization">
+            <div class="input_container">
+              <h6 class="organization_site_title">Organization Name</h6>
+              <div class="input_wrapper input_animate"><input type="text" class="organization_site_title_field animated_input" autofocus></div>
+            </div>
+            <div class="input_container">
+              <h6 class="organization_address">Organization Address</h6>
+              <div class="input_wrapper"><input type="email" class="organization_address_field animated_input"><span class="com">@techit.com</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second_tab tab">
+        <div class="form_content">
+          <h4>Now, Enter your Account Details</h4>
+          <div class="user_info">
+            <div class="input_container">
+              <h6 class="name">Name</h6>
+              <div class="input_wrapper"><input type="text" class="name_field animated_input"></div>
+            </div>
+            <div class="input_container">
+              <h6 class="email">Email</h6>
+              <div class="input_wrapper"><input type="email" class="email_address animated_input"></div>
+              <div class="email_note">NOTE: We'll never share your email with anyone, Promise!</div>
+            </div>
+            <div class="input_container">
+              <h6 class="password">Password</h6>
+              <div class="input_wrapper"><input type="password" class="password_field animated_input"></div>
+            </div>
+            <div id="hide_password"><input id="01" type="checkbox" name="r" value="1"><label for="01">Show Password</label></div>
+          </div>
+        </div>
+      </div>
+      <div id="terms_conditions" class="form_content"><input id="02" type="checkbox" name="r" value="1"><label for="02">I agree to the <a href="#">terms of service</a>, <a href="#">Privacy Policy</a> and <a href="#">Return Policy</a></label></div>
+      <button class="submit">Start the journey</button>
+    </div>
+  </div>
+
+  <script src="assets/js/animate.js"></script>
+</body>
+</html>
